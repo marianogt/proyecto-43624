@@ -8,14 +8,6 @@ import Promocion from "./componentes/Promocion";
 // import React, {useState} from 'react';
 
 const App = () => {
-  let edad = 57;
-  let adulto = "";
-   
-  if (edad > 25) {
-    adulto = "Sí";
-  }else{
-    adulto = "No";
-  }
   return (
     <div>
       <Header />
@@ -33,14 +25,6 @@ const App = () => {
   )
 }
 
-const SuperForm=({textoForm}) =>{
-  return (
-    <div>
-       <h1>{textoForm}</h1>    
-       <hookclase5>  </hookclase5>
-    </div>
-  )
-}
 
 // const hookclase5 =() =>{
 //   const [state, setState] = useState(false);

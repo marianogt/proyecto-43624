@@ -3,7 +3,6 @@ import React from "react";
 const Banners = () => {
     return (
         <div className="container">
-            <br />
             <div className="row gx-5 mb-5">
                 <div className="col-md-3 text-center shadow p-3 mx-auto bg-body rounded">
                     <p><img src="imagenes/productos/con camara.jpg" alt="Elementos" className="img-fluid" /></p>
