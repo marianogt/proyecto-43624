@@ -3,10 +3,10 @@ import React from "react";
 const Promocion = () => {
     return (
         <div className="container-fluid bg-info">
-            <div className="container py-3">
+            <div className="container py-2">
                 <div className="row">
                     <div className="col-md-2">
-                        <img src="imagenes/dylonelectronica.jpg" alt="DylonElectronica" width="180" height="80" />
+                        <img src="imagenes/dylonelectronica.jpg" alt="DylonElectronica" width="180" height="80" className="rounded-3" />
                     </div>
                     <div className="col-md-8 d-flex align-items-center">
                         <div>
@@ -15,7 +15,7 @@ const Promocion = () => {
                         </div>
                     </div>
                     <div className="col-md-2 d-flex align-items-center text-end">
-                        <a href="https://www.electronicadylon.com.ar/" className="btn btn-light" target="_blank">Compra Mayorista</a>
+                        <a href="https://www.electronicadylon.com.ar/" className="btn btn-light" >Compra Mayorista</a>
                     </div>
                 </div>
             </div>

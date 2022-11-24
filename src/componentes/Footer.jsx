@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div className="container py-5">
+        <div className="container py-3">
             <div className="row">
                 <div className="col-md-6">
                     <a href="#" className="mx-1"><img src="imagenes/facebook.png" alt="Facebook" width="32" /></a>
@@ -34,7 +34,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="col-md-2 text-end">
-                    <p><img src="imagenes/electronicadylon.jpg" alt="DylonElectronica" width="100" /> © Dylon Electrónica 2022</p> 
+                    <p><img src="imagenes/electronicadylon.jpg" alt="DylonElectronica" width="100" className="rounded-1" />©DylonElectrónica 2022</p> 
                 </div>
             </div>
         </div>
