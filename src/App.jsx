@@ -1,20 +1,40 @@
-import React from "react";
-import Banners from "./componentes/Banners";
+
+import React,{Route,Routes} from "react";
+// import Banners from "./componentes/Banners";
 import Footer from "./componentes/Footer";
 import ItemListContainer from "./componentes/ItemListContainer";
+import ItemDetailContainer from "./componentes/ItemDetailContainer";
 import NavBar from "./componentes/NavBar";
 import Promocion from "./componentes/Promocion";
+import Error404 from "./componentes/Error404";
 
 
 const App = () => {
   return (
-    <div>
+<BrowserRouter>
       <NavBar />
-      <ItemListContainer/>     
-      {/* <Banners /> */}
+      <Routes>
+        <Route path={"/"} element={<ItemListContainer />} />
+        <Route path={"/category/:categoria"} element={<ItemListContainer />} />
+        <Route path={"/item/:id"} element={<ItemDetailContainer />} />
+        <Route path={"*"} element={<Error404 />} />
+      </Routes>
       <Promocion />
       <Footer />
-  </div>
+    </BrowserRouter>
+
+
+
+
+
+
+  //   <div>
+  //     <NavBar />
+  //     <ItemListContainer/>     
+  //     {/* <Banners />  */}
+  //     <Promocion />
+  //     <Footer />
+  //  </div>
   )
 }
 
