@@ -6,7 +6,7 @@ const ItemListContainer = ({greeting}) => {
             <div className="row">
                 <div className="col-md-12">
                     <div className="alert alert-warning text-center" role="alert" >
-                        {greeting}
+                        {greeting="Bienvenidos a Dylon"}
                     </div>
                 </div>
             </div>
