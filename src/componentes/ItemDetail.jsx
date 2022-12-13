@@ -9,8 +9,8 @@ const ItemDetail = ({item})=>{
             </div>
             <div className="col-md-4"> 
                 <h1>{item.nombre}</h1>
-                <h5>{item.categoria}</h5>
-                <p>{item.decripcion}</p>
+                <p>{item.categoria}</p>
+                <h5>{item.descripcion}</h5>
                 <p><b>${item.precio}</b></p>
                 <ItemCount stock={item.stock}/>
             </div>

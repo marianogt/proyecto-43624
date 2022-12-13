@@ -1,12 +1,12 @@
    [
-        {"id":1, "nombre":"DT9208A", "categoria":"multimetro", "descripcion":"Multímetro Digital con Temp.", "stock":50, "precio":3500, "image":"/imagenes/productos/9208.jpg"},
-        {"id":2, "nombre":"Asp500", "categoria":"aspiradora","descripcion":"Aspiradora", "stock":10, "precio": 80000, "image":"/imagenes/productos/aspiradora1.jpg"},
-        {"id":3, "nombre":"ASPCV", "categoria":"aspiradora","descripcion":"Aspiradora con Cámara", "stock":10, "precio": 85000, "image":"/imagenes/productos/con camara.jpg"},
-        {"id":4, "nombre":"Camara Domo", "categoria":"camara","descripcion":"Camara domo 360", "stock":5, "precio": 35000, "image":"/imagenes/productos/camara 350-90.jpg"},
-        {"id":5, "nombre":"SNT17B", "categoria":"multimetro", "descripcion":"Multimetro", "stock":50, "precio":4500, "image":"/imagenes/productos/SNT17B.jpg"},
-        {"id":6, "nombre":"Portero", "categoria":"portero","descripcion":"Portero color ", "stock":10, "precio": 30000, "image":"/imagenes/productos/Doorphone.jpg"},
-        {"id":7, "nombre":"UA6243", "categoria":"multimetro","descripcion":"Medidor de LCR", "stock":20, "precio": 4800, "image":"/imagenes/productos/ua6243lmeter.jpg"},
-        {"id":8, "nombre":"Robot", "categoria":"camara","descripcion":"Camara 360-90 WIFI", "stock":27, "precio": 10000, "image":"/imagenes/productos/Robotwifi.jpg"},
-        {"id":9, "nombre":"205", "categoria":"multimetro","descripcion":"Multimetro Digital 205", "stock":37, "precio": 10000, "image":"/imagenes/productos/205.jpg"}
+        {"id":1, "nombre":"DT9208A", "categoria":"multimetro", "descripcion":"Multímetro Digital con Temperatura", "stock":50, "precio":3500, "image":"/imagenes/productos/9208.jpg"},
+        {"id":2, "nombre":"Asp500", "categoria":"aspiradora","descripcion":"Aspiradora Recargable alta potencia", "stock":10, "precio": 80000, "image":"/imagenes/productos/aspiradora1.jpg"},
+        {"id":3, "nombre":"ASPCV", "categoria":"aspiradora","descripcion":"Robot Aspiradora con Cámara y Trapeador", "stock":10, "precio": 85000, "image":"/imagenes/productos/con camara.jpg"},
+        {"id":4, "nombre":"Camara Domo", "categoria":"camara","descripcion":"Camara Domo Exterior 360h 90v", "stock":5, "precio": 35000, "image":"/imagenes/productos/camara 350-90.jpg"},
+        {"id":5, "nombre":"SNT17B", "categoria":"multimetro", "descripcion":"Multimetro Autorrango Auto OFF", "stock":50, "precio":4500, "image":"/imagenes/productos/SNT17B.jpg"},
+        {"id":6, "nombre":"Portero", "categoria":"portero","descripcion":"Portero cámara color HD ", "stock":10, "precio": 30000, "image":"/imagenes/productos/Doorphone.jpg"},
+        {"id":7, "nombre":"UA6243", "categoria":"multimetro","descripcion":"Medidor de LCR y Transistores", "stock":20, "precio": 4800, "image":"/imagenes/productos/ua6243lmeter.jpg"},
+        {"id":8, "nombre":"Robot", "categoria":"camara","descripcion":"Camara WIFI 360 y RX de Alarmas", "stock":27, "precio": 10000, "image":"/imagenes/productos/Robotwifi.jpg"},
+        {"id":9, "nombre":"205", "categoria":"multimetro","descripcion":"Multimetro Digital con Hz y 4 digitos", "stock":37, "precio": 10000, "image":"/imagenes/productos/205-1.jpg"}
     ]
 
