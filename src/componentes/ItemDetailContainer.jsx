@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
-import arrayProductos from "./Productos.json";
+import arrayProductos from "./json/Productos.json";
 
 const ItemDetailContainer = () => {
     const [productos, setProductos] = useState([]);
+    const {id} = useParams();
     useEffect(() => {
         const promesa = new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve(arrayProductos.find(item => item.id === parseInt(id)));
-            }, 500);
+            }, 2000);
         })
     
         promesa.then((data) => {

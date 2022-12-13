@@ -1,4 +1,4 @@
-     [
+   [
         {"id":1, "nombre":"DT9208A", "categoria":"", "descripcion":"Multímetro Digital con Temp.", "stock":50, "precio":3500, "image":"imagenes/productos/9208.jpg"},
         {"id":2, "nombre":"Asp500", "categoria":"","descripcion":"Aspiradora", "stock":10, "precio": 80000, "image":"imagenes/productos/aspiradora1.jpg"},
         {"id":3, "nombre":"ASPCV", "categoria":"","descripcion":"Aspiradora con Cámara", "stock":10, "precio": 85000, "image":"imagenes/productos/con camara.jpg"},
@@ -6,6 +6,7 @@
         {"id":5, "nombre":"SNT17B", "categoria":"", "descripcion":"Multimetro", "stock":50, "precio":4500, "image":"imagenes/productos/SNT17B.jpg"},
         {"id":6, "nombre":"Portero", "categoria":"","descripcion":"Portero color ", "stock":10, "precio": 30000, "image":"imagenes/productos/Doorphone.jpg"},
         {"id":7, "nombre":"UA6243", "categoria":"","descripcion":"Medidor de LCR", "stock":20, "precio": 4800, "image":"imagenes/productos/ua6243lmeter.jpg"},
-        {"id":8, "nombre":"Robot", "categoria":"","descripcion":"Camara 360-90 WIFI", "stock":27, "precio": 10000, "image":"imagenes/productos/Robotwifi.jpg"}
-     ]
+        {"id":8, "nombre":"Robot", "categoria":"","descripcion":"Camara 360-90 WIFI", "stock":27, "precio": 10000, "image":"imagenes/productos/Robotwifi.jpg"},
+        {"id":9, "nombre":"Robot", "categoria":"","descripcion":"Camara 360-90 WIFI", "stock":27, "precio": 10000, "image":"imagenes/productos/Robotwifi.jpg"}
+    ]
 

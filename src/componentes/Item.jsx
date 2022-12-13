@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Items = ({ item }) => {
+const Item = ({ item }) => {
     return (
         <div className="col-md-4">
             <Link to={"/item/" + item.id} className="text-dark text-decoration-none">
@@ -18,4 +18,4 @@ const Items = ({ item }) => {
     )
 }
 
-export default Items
+export default Item
