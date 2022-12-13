@@ -1,5 +1,5 @@
 
-import React,{BrowserRouter, Route, Routes} from "react";
+import React,{BrowserRouter, Route, Routes} from "react-router-dom";
 import Footer from "./componentes/Footer";
 import ItemListContainer from "./componentes/ItemListContainer";
 import ItemDetailContainer from "./componentes/ItemDetailContainer";
