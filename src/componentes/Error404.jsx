@@ -1,7 +1,7 @@
 
 const Error404= ()=>{
     return(
-        <div className="container">
+        <div className="container my-5">
             <div className="row">
                 <div className="col-md-12">
                 <div className="alert alert-danger text-center" role="alert">
